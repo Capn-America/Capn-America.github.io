@@ -107,12 +107,12 @@ body{
 }
 #closer
 {
-	padding: 20px 385px 0px 50px;
+	padding: 20px 350px 0px 50px;
 	display: flex;
 	flex-wrap: wrap;
 	font-family: 'Creepster', cursive;
 	font-size: 20px;
-	text-align: : center;
+	text-align: center;
 
 }
 p
