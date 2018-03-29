@@ -9,13 +9,14 @@ body{
 #container
 {
 	display:flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	background-image: url("background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	/*min-width:646px;*/
-	max-width: 1070px;
+	/*min-width:600px;*/
+	
+
 
 
 	
@@ -27,11 +28,11 @@ body{
 
 {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
 	justify-content: center;
 	
 
-	padding: 20px 220px 0px 20px;
+	padding: 20px 20px 0px 20px;
 }
 
 .col
@@ -45,12 +46,13 @@ body{
 {
 /*	border-bottom: darkgrey solid 4px;
 	border-right: darkgrey solid 4px;*/
+
 	padding-bottom: 10px;
 	padding-top: 20px;
 		padding-left:20px;
 	text-align: center;
 	font-family: 'Nosifer', cursive;
-	font-size: 50px;
+	font-size: 40px;
 
 
 }
@@ -58,6 +60,7 @@ body{
 #graphic
 {	
 	display: flex;
+	
 	align-items: center;
 	justify-content: center;
 
@@ -73,8 +76,8 @@ body{
 {
 	height: 150px;
 	width: 150px;
-	position: relative;
-	right: 217px;
+	
+	right: 200px;
 	top:10px;
 	transition-property: scale();
 	transition-duration: 2s;
@@ -89,12 +92,13 @@ body{
 {	opacity: 0;
 	transition-property: opacity;
 	transition-duration: 2s;
+	position: relative;
 }
 #tellmemore
 {
 	height: 30px;
 	position: relative;
-	right: 365px;
+	
 	top:10px;
 	transition-property: scale();
 	transition-duration: 2s;
@@ -107,12 +111,13 @@ body{
 }
 #closer
 {
-	padding: 20px 350px 0px 50px;
+	padding: 20px 20px 0px 20px;
 	display: flex;
+	align-content: space-around;
 	flex-wrap: wrap;
 	font-family: 'Creepster', cursive;
 	font-size: 20px;
-	text-align: center;
+	
 
 }
 p
