@@ -68,7 +68,8 @@ body{
 	display: flex;
 	
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: center;
+	
 
 
 }
@@ -82,8 +83,7 @@ body{
 {
 	height: 150px;
 	width: 150px;
-	
-	right: 200px;
+
 	top:10px;
 	transition-property: scale();
 	transition-duration: 2s;
