@@ -62,7 +62,7 @@ body{
 	display: flex;
 	
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end;
 
 
 }
@@ -90,6 +90,7 @@ body{
 }
 #FireCircle
 {	opacity: 0;
+
 	transition-property: opacity;
 	transition-duration: 2s;
 	position: relative;
