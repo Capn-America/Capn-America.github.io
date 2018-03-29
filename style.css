@@ -30,21 +30,17 @@ body{
 	
 }
 
-.col
-{
-	border: dashed black 2px;
-	text-align :center;
-}
+
 
 
 #info
 
 {
 	display: flex;
-	
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	align-content: space-between;
+	align-content: space-around;
 	
 
 	padding: 20px 200px 0px 20px;
