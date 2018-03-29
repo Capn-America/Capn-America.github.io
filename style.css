@@ -48,6 +48,7 @@ body{
 
 .col
 {
+
 	font-weight:bolder;
 	margin: 10px;
 
@@ -65,6 +66,7 @@ body{
 {
 /*	border-bottom: darkgrey solid 4px;
 	border-right: darkgrey solid 4px;*/
+	/*Who needs a border?*/
 
 	
 	font-family: 'Nosifer', cursive;
