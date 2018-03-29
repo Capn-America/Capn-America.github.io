@@ -14,10 +14,16 @@ body{
 	background-image: url("background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+<<<<<<< HEAD
 	/*min-width:600px;*/
 	
 
 
+=======
+	min-width:730px;
+	max-width: 1070px;
+	border: inset silver 10px;
+>>>>>>> parent of 07dd2d1... fixing min-width of container
 
 	
 }
@@ -112,7 +118,11 @@ body{
 }
 #closer
 {
+<<<<<<< HEAD
 	padding: 20px 20px 0px 20px;
+=======
+	padding: 20px 400px 0px 20px;
+>>>>>>> parent of 07dd2d1... fixing min-width of container
 	display: flex;
 	align-content: space-around;
 	flex-wrap: wrap;
