@@ -14,7 +14,7 @@ body{
 	background-image: url("background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	min-width:730px;
+	min-width:679px;
 	max-width: 1070px;
 	border: inset silver 10px;
 
@@ -107,7 +107,7 @@ body{
 }
 #closer
 {
-	padding: 20px 400px 0px 20px;
+	padding: 20px 385px 0px 20px;
 	display: flex;
 	flex-wrap: wrap;
 	font-family: 'Creepster', cursive;
