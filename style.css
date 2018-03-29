@@ -107,7 +107,7 @@ body{
 }
 #closer
 {
-	padding: 20px 385px 0px 20px;
+	padding: 20px 385px 0px 50px;
 	display: flex;
 	flex-wrap: wrap;
 	font-family: 'Creepster', cursive;
