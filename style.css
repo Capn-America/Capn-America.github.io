@@ -1,0 +1,127 @@
+
+body{
+	display:flex;
+	justify-content:center;
+	margin-top: 20px;
+
+}
+
+#container
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	min-width:730px;
+	max-width: 1070px;
+	border: inset silver 10px;
+
+	
+}
+
+
+
+#info
+
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+
+	padding: 20px 220px 0px 20px;
+}
+
+.col
+{
+	font-weight:bolder;
+	margin: 10px;
+
+}
+
+#MainTitle
+{
+/*	border-bottom: darkgrey solid 4px;
+	border-right: darkgrey solid 4px;*/
+	padding-bottom: 10px;
+	padding-top: 20px;
+		padding-left:20px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+	font-size: 50px;
+
+
+}
+
+#graphic
+{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+#graphic:hover > #FireCircle
+{
+	opacity:1;
+	transition-duration: 3s;
+}
+#rollingfireball
+{
+	height: 150px;
+	width: 150px;
+	position: relative;
+	right: 217px;
+	top:10px;
+	transition-property: scale();
+	transition-duration: 2s;
+
+}
+#rollingfireball:hover
+{
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+#FireCircle
+{	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 2s;
+}
+#tellmemore
+{
+	height: 30px;
+	position: relative;
+	right: 365px;
+	top:10px;
+	transition-property: scale();
+	transition-duration: 2s;
+}
+
+#tellmemore:hover
+{
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+#closer
+{
+	padding: 20px 400px 0px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Creepster', cursive;
+	font-size: 20px;
+	text-align: : center;
+
+}
+p
+{
+	text-align: center;
+}
+
+
+
+
+
+
